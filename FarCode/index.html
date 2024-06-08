@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>FarCode</title>
 </head>
 <body>
+    <div class="clouds">
+        <img src="./img/cloud1.png" alt="cloud" class="cloud1">
+        <img src="./img/cloud2.png" alt="cloud" class="cloud2">
+        <img src="./img/cloud3.png" alt="cloud" class="cloud3">
+        <img src="./img/cloud4.png" alt="cloud" class="cloud4">
+        <img src="./img/cloud5.png" alt="cloud" class="cloud5">
+        <img src="./img/cloud6.png" alt="cloud" class="cloud6">
+    </div>
     <header class="header">
         <div class="header__logo">
             <img src="icons/logo.png" alt="" class="header__logo_image">
@@ -17,7 +29,7 @@
     </header>
     <section class="intro">
         <div class="intro__info">
-            <h1 class="intro__info_header"><span class="slash_purple"></span>/FARCODE</h1>
+            <h1 class="intro__info_header"><span class="slash_purple">/</span>FARCODE</h1>
             <p class="intro__info_description">ХАКАТОН ЦИФРОВЫХ ПРОФЕССИЙ</p>
             <button class="intro__info_button">участвовать</button>
         </div>
@@ -25,52 +37,58 @@
             <img src="img/intro.png" alt="main image">
         </div>
     </section>
-    <main>
-        <div class="concept">
-            <nav class="concept__menu">
-                <a class="consept__menu_link">О концепции</a>
-                <a class="consept__menu_link">Кейсы</a>
-                <a class="consept__menu_link">Ключевые даты</a>
-                <a class="consept__menu_link">FAQ</a>
-            </nav>
-            <div class="concept__content">
-                <div class="concept__about">
-                    <h2 class="concept__about_title"><span class="slash__green">/</span>Что такое хакатон цифровых профессий?</h2>
-                    <p class="concept__about_text">Это мероприятие, где команды, состоящие из молодых людей создают прототипы цифровых продуктов по техническому заданию от малого и среднего бизнеса (кейсы).</p>
-                </div>
-                <div class="concept__reasons">
-                    <h2 class="concept__reasons_title"><span class="slash__green">/</span>Почему вам это нужно?</h2>
-                    <p class="concept__reasons_text">Хакатон позволит вам получить крутой опыт командной разработки, новые и полезные знакомства, а также шанс попасть на стажировку или работу в IT-компанию или в IT-подразделение крупной корпорации.</p>
-                </div>
-                <div class="concept__participation">
-                    <h2 class="concept__participation_title">
-                        <span class="slash__green">/</span>
-                        Как принять участие в хакатоне?</h2>
-                    <div class="concept__participation_cards">
-                        <div class="concept__participation_card">
-                            <img href="./icons/participation1.png" class="concept__participation_icon" alt="icon">
-                            <div class="concept__participation_text">
-                                Изучите кейсы через кнопки Подробнее о каждом кейсе
-                            </div>
+    <main class="concept">
+        <nav class="concept__menu">
+            <a class="consept__menu_link">О концепции</a>
+            <a class="consept__menu_link">Кейсы</a>
+            <a class="consept__menu_link">Ключевые даты</a>
+            <a class="consept__menu_link">FAQ</a>
+        </nav>
+        <div class="concept__content">
+            <div class="concept__about">
+                <h2 class="concept__about_title"><span class="slash__green">/</span>Что такое хакатон цифровых профессий?</h2>
+                <p class="concept__about_text">Это мероприятие, где команды, состоящие из молодых людей создают прототипы цифровых продуктов по техническому заданию от малого и среднего бизнеса (кейсы).</p>
+            </div>
+            <div class="concept__reasons">
+                <h2 class="concept__reasons_title"><span class="slash__green">/</span>Почему вам это нужно?</h2>
+                <p class="concept__reasons_text">Хакатон позволит вам получить крутой опыт командной разработки, новые и полезные знакомства, а также шанс попасть на стажировку или работу в IT-компанию или в IT-подразделение крупной корпорации.</p>
+            </div>
+            <div class="concept__participation">
+                <h2 class="concept__participation_title">
+                    <span class="slash__green">/</span>
+                    Как принять участие в хакатоне?</h2>
+                <div class="concept__participation_cards">
+                    <div class="concept__participation_card">
+                        <div class="concept__participation_icon">
+                            <img src="icons/participation1.png"  alt="icon">
                         </div>
-                        <div class="concept__participation_card">
-                            <img href="icons/participation2.png" class="concept__participation_icon" alt="icon">
-                            <div class="concept__participation_text">
-                                Регистрируйтесь на понравившийся кейс
-                            </div>
+                        
+                        <div class="concept__participation_text">
+                            Изучите кейсы через кнопки Подробнее о каждом кейсе
                         </div>
-                        <div class="concept__participation_card">
-                            <img href="icons/participation3.png" class="concept__participation_icon" alt="icon">
-                            </img >
-                            <div class="concept__participation_text">
-                                Перед хакатоном будет укомплектована команда по навыкам
-                            </div>
+                    </div>
+                    <div class="concept__participation_card">
+                        <div class="concept__participation_icon">
+                            <img src="icons/participation2.png"  alt="icon">
                         </div>
-                        <div class="concept__participation_card">
-                            <img href="icons/participation4.png" class="concept__participation_icon" alt="icon">
-                            <div class="concept__participation_text">
-                                Решаете кейс в дни проведения хакатона вместе со своей командой
-                            </div>
+                        <div class="concept__participation_text">
+                            Регистрируйтесь на понравившийся кейс                
+                        </div>
+                    </div>
+                    <div class="concept__participation_card">
+                        <div class="concept__participation_icon">
+                            <img src="icons/participation3.png"  alt="icon">
+                        </div>
+                        <div class="concept__participation_text">
+                            Перед хакатоном будет укомплектована команда по навыкам
+                        </div>
+                    </div>
+                    <div class="concept__participation_card">
+                        <div class="concept__participation_icon">
+                            <img src="icons/participation4.png"  alt="icon">
+                        </div>
+                        <div class="concept__participation_text">
+                            Решаете кейс в дни проведения хакатона вместе со своей командой
                         </div>
                     </div>
                 </div>
@@ -80,7 +98,7 @@
     <section class="cases">
         <div class="cases__top">
             <h2 class="cases__header">
-                <span class="slash_purple"></span>
+                <span class="slash_purple">/</span>
                 Серьёзные проблемы требуют серьёзных решений</h2>
             <p class="cases__description">Кейсы от ведущих российских компаний</p>
         </div>
@@ -136,7 +154,82 @@
         </div>
     </section>
     <section class="schedule">
-        
+        <div class="schedule__content">
+            <div class="schedule__heading">
+                <h2 class="schedule__header"><span class="slash__green">/</span>Что, а самое главное когда</h2>
+                <p class="schedule__text">Ключевые даты хакатона</p>
+            </div>
+            <div class="schedule__dates">
+                <div class="schedule__date">
+                    <h3 class="schedule__title">15 июля - 05 сентября
+                    </h3>
+                    <p class="schedule__description">Онлайн регистрация на кейс</p>
+                </div>
+                <div class="schedule__date">
+                    <h3 class="schedule__title">05 сентября 00:00
+                    </h3>
+                    <p class="schedule__description">Окончание приема заявок от участников хакатона</p>
+                </div>
+                <div class="schedule__date">
+                    <h3 class="schedule__title">До 15 сентября
+                    </h3>
+                    <p class="schedule__description">Формирование команд на кейсы и приглашение на хакатон</p>
+                </div>
+                <div class="schedule__date">
+                    <h3 class="schedule__title">23-24 сентября
+                    </h3>
+                    <p class="schedule__description">Старт 2-х дней хакатона + экспертная поддержка</p>
+                </div>
+                <div class="schedule__date">
+                    <h3 class="schedule__title">24 сентября
+                    </h3>
+                    <p class="schedule__description">Финал для команд кейсов / подведение итогов</p>
+                </div>
+            </div>
+        </div>
+        <div class="schedule__image">
+            <img src="./img/FARCODE.png" alt="farcode">
+        </div>
     </section>
+    <section class="qa">
+        <h2 class="qa__header"><span class="slash_purple">/</span>Часто задаваемые вопросы и ответы</h2>
+        <div class="qa__items">
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 1</h3>
+                <p class="qa__item_answer">mi sit amet mauris commodo quis imperdiet massa tincidunt nunc</p>
+            </div>
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 2</h3>
+                <p class="qa__item_answer">venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt</p>
+            </div>
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 3</h3>
+                <p class="qa__item_answer">aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur</p>
+            </div>
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 4</h3>
+                <p class="qa__item_answer">id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi</p>
+            </div>
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 5</h3>
+                <p class="qa__item_answer">aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur</p>
+            </div>
+            <div class="qa__item">
+                <h3 class="qa__item_question">Вопрос 6</h3>
+                <p class="qa__item_answer">venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__site-name">FARCODE</div>
+            <div class="footer__owner">© 2022 Golomedov Andrey</div>
+        </div>
+        <div class="footer__contact">
+            <p class="footer__text">Контакты</p>
+            <div class="footer__phone">+ 7 (800) 500-27-34</div>
+            <div class="footer__email">help@far-code.ru</div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,114 @@
+.concept {
+    margin: 0 auto;
+    padding-top: 223px;
+    width: 1412px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(177, 185, 206);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    &__menu {
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 42px;
+    }
+    &__content {
+        border-radius: 20px;
+        background: #160E20;
+        width: 1412px;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(22, 14, 32);
+    }
+    &__about {
+        background: url("img/concept_content.png") no-repeat;
+        height: 508px;
+        padding: 65px 121px;
+
+        &_title {
+            width: 570px;
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+        }
+        &_text {
+            width: 528px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    &__reasons {
+        padding-left: 718px;
+        padding-top: 64px;
+        height: 508px;
+        background: url("img/concept__reasons.png") no-repeat;
+        background-size:  contain;
+        &_title {
+            margin: 0;
+            width: 306px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+        }
+        &_text {
+            padding-right: 200px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    &__participation {
+        height: 508px;
+        padding: 65px 121px;
+        background: url("img/concept__participation.png") no-repeat;
+        background-size:  contain;
+        &_title {
+            margin: 0;
+            width: 510px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+        }
+        &_cards {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-gap: 14px;
+            justify-content: center;
+            align-content: start;
+            padding-top: 46px;
+        }
+        &_card {
+            width: 300px;
+            height: 225px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            &:nth-child(2) {
+                margin-top: -10px;
+            }
+        }
+        &_icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 110px;
+            height: 110px;
+            background-color: #ffffff;
+        }
+        &_text {
+            padding-top: 34px;
+        }
+        & img {
+            width: 78px;
+            height: 78px;
+        }
+    }
+}

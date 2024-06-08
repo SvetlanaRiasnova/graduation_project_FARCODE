@@ -1,0 +1,19 @@
+.header {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1168px;
+    height: 35px;
+    &__menu {        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        display: flex;
+        gap: 72px;
+        padding-right: 120px;
+        & a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.schedule {
+    margin: 105px auto;
+    width: 1412px;
+    min-height: 1108px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(22, 14, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    &__content {
+        width: 570px;
+        padding-left: 113px;
+        margin: 0;
+        // padding-top: 59px;
+    }
+    &__header {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        margin: 0;
+        color: #FFFFFF;
+    }
+    &__text {
+        margin: 0;
+        padding-top: 30px;
+        color: #FFFFFF;
+    }
+    &__dates {
+        padding-top: 47px;
+        display: flex;
+        flex-direction: column;
+        gap: 38px;
+    }
+    &__date {
+        width: 514px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 19px 26px;
+    }
+    &__title {
+        margin: 0;
+        text-transform: uppercase;
+    }
+    &__description {
+        margin: 0;
+        padding-top: 20px;
+    }
+    & img {
+        width: 720px;
+        min-height: 966px;
+    }
+}
