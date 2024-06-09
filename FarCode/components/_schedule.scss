@@ -10,15 +10,12 @@
     align-items: center;
     gap: 100px;
     &__content {
-        width: 570px;
+        width: 590px;
         padding-left: 113px;
         margin: 0;
-        // padding-top: 59px;
     }
     &__header {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 49px;
+        @include titleFont;
         margin: 0;
         color: #FFFFFF;
     }
@@ -35,9 +32,6 @@
     }
     &__date {
         width: 514px;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
         background-color: #FFFFFF;
         border-radius: 10px;
         padding: 19px 26px;
@@ -45,6 +39,7 @@
     &__title {
         margin: 0;
         text-transform: uppercase;
+        font-weight: 700;
     }
     &__description {
         margin: 0;

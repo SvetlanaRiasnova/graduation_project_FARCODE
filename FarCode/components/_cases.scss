@@ -9,17 +9,13 @@
     &__header {
         padding-top: 62px;
         width: 570px;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 49px;
-        letter-spacing: 0%;
-        text-align: left;
+        @include titleFont;
         margin: 0;
         margin-left: 86px;
 
     }
     &__description {
-        width: 370px;
+        width: 390px;
         text-transform: uppercase;
         padding-top: 30px;
         margin: 0;
@@ -46,9 +42,6 @@
             width: 234px;
             padding-top: 21px;
             padding-left: 16px;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 24px;
         }
     }
 }

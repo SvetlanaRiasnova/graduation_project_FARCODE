@@ -11,21 +11,24 @@
         flex-direction: column;
         padding-top: 227px;
         &_header {
-            font-size: 60px;
             margin: 0;
+            font-size: 60px;
             font-weight: 700;
             line-height: 73px;
             text-align: left;
+            display: flex;
+            align-items: center;
+            & .slash_purple {
+                font-size: 60px;
+            }
         }
         &_description {
             margin: 0;
             color: rgb(0, 0, 0);
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 24px;
             padding-top: 25px;
         }
         &_button {
+            margin: 0;
             margin-top: 120px;
             width: 220px;
             height: 70px;
@@ -33,15 +36,10 @@
             box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
             background: rgb(22, 14, 32);
             color: rgb(255, 255, 255);
-            font-size: 20px;
             font-weight: 700;
-            line-height: 24px;
             text-align: center;
             text-transform: uppercase;
             color: #ffffff;
         }
     }
-}
-.slash_purple {
-    color: #7856FF;
 }

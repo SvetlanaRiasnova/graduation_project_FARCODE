@@ -1,3 +1,4 @@
+@import "./components/variables";
 @import "./components/major";
 @import "./components/header";
 @import "./components/intro";
@@ -5,3 +6,9 @@
 @import "./components/cases";
 @import "./components/schedule";
 @import "./components/qa";
+@import "./components/footer";
+// registration page
+@import "./components/case_intro";
+@import "./components/case_details";
+@import "./components/mentors";
+@import "./components/register";

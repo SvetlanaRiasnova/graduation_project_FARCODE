@@ -1,0 +1,76 @@
+.register {
+    width: 1170px;
+    &__header {
+        @include titleFont;
+        padding-bottom: 53px;
+    }
+    &__form_inputs {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 570px);
+    }
+    &__form_left, &__form_right {
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        & input, & textarea {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+            background: rgb(255, 255, 255);
+            border: none;
+        }
+        & input {
+            height: 51px;
+            padding: 21px 31px;
+        }
+    }
+    &__form_chbx {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        width: 570px;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(255, 255, 255);
+        border: none;
+        & input {
+            width: 20px;
+            margin: 0;
+            margin-left: 31px;
+            &::before {
+                border-color: #7a7a7a;
+                background-color: #ffffff;
+            }
+            &::after {
+                border-color: #7a7a7a;
+                background-color: #7a7a7a;
+            }
+        }
+        & label {
+            margin: 0;
+            padding-left: 14px;
+            color: rgb(136, 136, 136);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+    &__button {
+        margin-top: 30px;
+        margin-bottom: 76px;
+        width: 319.77px;
+        height: 70px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(22, 14, 32);
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}

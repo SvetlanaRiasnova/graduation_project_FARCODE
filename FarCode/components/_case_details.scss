@@ -1,0 +1,55 @@
+.case__details {
+    margin: 0 auto;
+    margin-bottom: 81px;
+    width: 1350px;
+    padding-top: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_menu {
+        width: 1005px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 42px;
+        & a {
+            text-decoration: none;
+            color:#000000;
+        }
+    }
+}
+.case__content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    padding:  65px 90px 116px 90px;
+    width: 1350px;
+    border-radius: 20px;
+    background: url("img/case_page.png") no-repeat center;
+    background-size: 100%;
+    &_about {
+        width: 570px;
+        color: #B1B9CE;
+        padding-right: 80px;
+    }
+    &_title {
+        @include titleFont;
+    }
+    &_logo img{
+        width: 570px;
+    }
+}
+.case__description {
+    margin: 0 auto;
+    width: 1170px;
+    &_header {
+        @include titleFont;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    &_text {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+}

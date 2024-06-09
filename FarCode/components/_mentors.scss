@@ -1,0 +1,28 @@
+.mentors {
+    margin-top: 41px;
+    margin-bottom: 76px;
+    width: 1350px;
+    padding: 76px 90px 106px 90px;
+    min-height: 769px;
+    border-radius: 20px;
+    background: url("img/mentors_bg.png") no-repeat center;
+    background-size: 100%;
+    color: #B1B9CE;
+    &__header {
+        @include titleFont;
+        color: #FFFFFF;
+        padding-bottom: 57px;
+    }
+    &__info {
+        display: flex;
+        & img {
+           padding-bottom: 34px;
+        }
+        &_block {
+            text-align: center;
+        } 
+    }
+    &__name {
+        font-weight: 700;
+    }
+}

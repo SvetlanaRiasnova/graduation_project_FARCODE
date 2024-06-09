@@ -6,15 +6,16 @@
     flex-direction: column;
     align-items: center;
     color: rgb(177, 185, 206);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
     text-align: left;
     &__menu {
         width: 1000px;
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 42px;
+        & a {
+            text-decoration: none;
+            color:#000000;
+        }
     }
     &__content {
         border-radius: 20px;
@@ -31,15 +32,11 @@
         &_title {
             width: 570px;
             margin: 0;
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 49px;
+            @include titleFont;
         }
         &_text {
+            margin: 0;
             width: 528px;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 24px;
         }
     }
     &__reasons {
@@ -51,15 +48,10 @@
         &_title {
             margin: 0;
             width: 306px;
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 49px;
+            @include titleFont;
         }
         &_text {
             padding-right: 200px;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 24px;
         }
     }
     &__participation {
@@ -70,9 +62,7 @@
         &_title {
             margin: 0;
             width: 510px;
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 49px;
+            @include titleFont;
         }
         &_cards {
             display: grid;
@@ -85,20 +75,16 @@
         &_card {
             width: 300px;
             height: 225px;
-            display: flex;
+            @include flexCenter;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             text-align: center;
             &:nth-child(2) {
                 margin-top: -10px;
             }
         }
         &_icon {
-            display: flex;
+            @include flexCenter;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             width: 110px;
             height: 110px;
             background-color: #ffffff;
@@ -107,8 +93,14 @@
             padding-top: 34px;
         }
         & img {
-            width: 78px;
+            width: 78px; 
             height: 78px;
         }
+    }
+}
+.gray {
+    filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0);
     }
 }

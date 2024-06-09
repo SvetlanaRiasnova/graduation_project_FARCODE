@@ -1,0 +1,29 @@
+.footer {
+    background-color: #160E20;
+    color: #B1B9CE;
+    overflow: hidden;
+    &__wrap {
+        width: 1170px;
+        margin: 0 auto;
+        padding: 74px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__info, &__contact {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+    &__contact {
+        align-items: end;
+        & p{
+            margin: 0;
+        }
+    }
+    &__email, &__site-name {
+        margin: 0;
+    }
+}

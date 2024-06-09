@@ -1,17 +1,17 @@
 * {
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+    font-size: 20px;
     font-weight: 500;
+    line-height: 24px;
     font-style: normal;
 }
 
 body {
     position: relative;
-}
-.clouds {
-    
+    overflow-x: hidden;
 }
 .cloud1 {
     /* Фигура5 */
@@ -79,10 +79,19 @@ body {
     bottom: 136px;
     z-index: -2;
 }
+.cloud__bottom {
+    width: 400.63px;
+    height: 405.45px;
+    right: 1640.37px;
+    top: 3444px;
+}
 
 .slash__green {
     color: #56FFCC;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 49px;
+    @include titleFont;
+}
+.slash_purple {
+    margin: 0;
+    color: #7856FF;
+    @include titleFont;
 }
