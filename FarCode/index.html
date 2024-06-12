@@ -233,5 +233,32 @@
             </div>
         </div>
     </footer>
+    <div class="modal hidden">
+        <div class="register">
+            <h2 class="register__header"><span class="slash_purple">/</span>Регистрация на кейс</h2>
+            <div class="modal_close">X</div>
+            <form action="" method="post" class="register__form">
+                <div class="register__form_inputs">
+                    <div class="register__form_left">
+                        <input type="text" placeholder="Введите имя" required>
+                        <input type="text" placeholder="Введите фамилию" required>
+                        <input type="number" placeholder="Введите свой возраст (от 10 до 100)" required>
+                        <input type="email" placeholder="Введите email" required>
+                        <input type="phone" placeholder="Номер телефона" required>
+                        <input type="text" placeholder="Название организации">
+                    </div>
+                    <div class="register__form_right">
+                        <textarea name="" id="" rows="14"></textarea>
+                        <div class="register__form_chbx">
+                            <input id="agreement" name="agreement" type="checkbox" required>
+                            <label for="agreement">Соглашение пользователя</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="register__button">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

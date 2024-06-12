@@ -95,3 +95,6 @@ body {
     color: #7856FF;
     @include titleFont;
 }
+.hidden {
+    display: none;
+}
