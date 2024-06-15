@@ -19,12 +19,12 @@
         <img src="./img/cloud6.png" alt="cloud" class="cloud6">
     </div>
     <header class="header">
-        <div class="header__logo">
+        <a class="header__logo" href="index.html">
             <img src="icons/logo.png" alt="" class="header__logo_image">
-        </div>
+        </a>
         <nav class="header__menu">
-            <a href="" class="header__menu_link">Главная</a>
-            <a href="" class="header__menu_link">О нас</a>
+            <a href="#about_us" class="header__menu_link">О нас</a>
+            <a href="#contacts" class="header__menu_link">Контакты</a>
         </nav>
     </header>
     <section class="intro">
@@ -37,7 +37,7 @@
             <img src="img/intro.png" alt="main image">
         </div>
     </section>
-    <main class="concept">
+    <main class="concept" id="about_us">
         <nav class="concept__menu">
             <a class="consept__menu_link" href="#about">О концепции</a>
             <a class="consept__menu_link" href="#cases">Кейсы</a>
@@ -62,7 +62,6 @@
                         <div class="concept__participation_icon">
                             <img src="icons/participation1.png"  alt="icon">
                         </div>
-                        
                         <div class="concept__participation_text">
                             Изучите кейсы через кнопки Подробнее о каждом кейсе
                         </div>
@@ -107,49 +106,49 @@
                 <div class="cases__item_image">
                     <img src="./img/case1.png" alt="case1" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка программы сервера на Django</div>
+                <a href="registration.html" class="cases__item_text">Разработка программы сервера на Django</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case2.png" alt="case2" class="gray">
                 </div>
-                <div class="cases__item_text">Вёрстка сайтов по макетам (HTML + CSS)</div>
+                <a href="registration.html" class="cases__item_text">Вёрстка сайтов по макетам (HTML + CSS)</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case3.png" alt="case3" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка мобильного UI на React-native</div>
+                <a href="registration.html" class="cases__item_text">Разработка мобильного UI на React-native</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case4.png" alt="case4" class="gray">
                 </div>
-                <div class="cases__item_text">Создание Web-дизайна</div>
+                <a href="registration.html" class="cases__item_text">Создание Web-дизайна</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case5.png" alt="case5" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка мобильного приложения на IOS</div>
+                <a href="registration.html" class="cases__item_text">Разработка мобильного приложения на IOS</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case6.png" alt="case6" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка мобильного приложения на Android</div>
+                <a href="registration.html" class="cases__item_text">Разработка мобильного приложения на Android</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case7.png" alt="case7" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка UI на одном из JavaScript фреймворке</div>
+                <a href="registration.html" class="cases__item_text">Разработка UI на одном из JavaScript фреймворке</a>
             </div>
             <div class="cases__item">
                 <div class="cases__item_image">
                     <img src="./img/case8.png" alt="case8" class="gray">
                 </div>
-                <div class="cases__item_text">Разработка приложений под Windows 10 на C++</div>
+                <a href="registration.html" class="cases__item_text">Разработка приложений под Windows 10 на C++</a>
             </div>
         </div>
     </section>
@@ -226,14 +225,14 @@
                 <div class="footer__site-name">FARCODE</div>
                 <div class="footer__owner">© 2022 Golomedov Andrey</div>
             </div>
-            <div class="footer__contact">
+            <div class="footer__contact" id="contacts">
                 <p class="footer__text">Контакты</p>
                 <div class="footer__phone">+ 7 (800) 500-27-34</div>
                 <div class="footer__email">help@far-code.ru</div>
             </div>
         </div>
     </footer>
-    <div class="modal hidden">
+    <!-- <div class="modal hidden">
         <div class="register">
             <h2 class="register__header"><span class="slash_purple">/</span>Регистрация на кейс</h2>
             <div class="modal_close">X</div>
@@ -258,7 +257,7 @@
                 <button type="submit" class="register__button">Зарегистрироваться</button>
             </form>
         </div>
-    </div>
-    <script src="main.js"></script>
+    </div> -->
+    <!-- <script src="main.js"></script> -->
 </body>
 </html>

@@ -281,10 +281,10 @@ body {
   height: 78px;
 }
 
-.gray {
+.cases__item {
   filter: grayscale(100%);
 }
-.gray:hover {
+.cases__item:hover {
   filter: grayscale(0);
 }
 
@@ -332,9 +332,11 @@ body {
   text-align: left;
 }
 .cases__item_text {
+  text-decoration: none;
   width: 234px;
   padding-top: 21px;
   padding-left: 16px;
+  color: #000000;
 }
 
 .schedule {

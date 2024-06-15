@@ -39,9 +39,17 @@
         background: rgb(255, 255, 255);
         text-align: left;
         &_text {
+            text-decoration: none;
             width: 234px;
             padding-top: 21px;
             padding-left: 16px;
+            color: #000000;
         }
+    }
+}
+.cases__item  {
+    filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0);
     }
 }
