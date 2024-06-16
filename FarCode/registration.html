@@ -7,6 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="./script/scroll.js" defer></script> 
+        <script src="./script/activeLineMenu.js" defer></script> 
         <title>FarCode</title>
     </head>
 <body>
@@ -22,7 +24,7 @@
         </a>
         <nav class="header__menu">
             <a href="index.html" class="header__menu_link">Главная</a>
-            <a href="" class="header__menu_link">О нас</a>
+            <a href="#contacts" class="header__menu_link">Контакты</a>
         </nav>
     </header>
     <section class="case__intro">
@@ -36,7 +38,7 @@
     </section>
     <main class="case__details">
         <nav class="case__details_menu">
-            <a class="case__menu_link" href="#aboutcase">О компании</a>
+            <a class="case__menu_link active" href="#aboutcase">О компании</a>
             <a class="case__menu_link" href="#cases">Описание кейса</a>
             <a class="case__menu_link" href="#dates">Менторы кейса</a>
             <a class="case__menu_link" href="#faq">Регистрация</a>
@@ -82,18 +84,18 @@
     </section>
     <section class="register">
         <h2 class="register__header"><span class="slash_purple">/</span>Регистрация на кейс</h2>
-        <form action="" method="post" class="register__form">
+        <form action="#" method="POST" class="register__form">
             <div class="register__form_inputs">
                 <div class="register__form_left">
-                    <input type="text" placeholder="Введите имя" required>
-                    <input type="text" placeholder="Введите фамилию" required>
-                    <input type="number" placeholder="Введите свой возраст (от 10 до 100)" required>
-                    <input type="email" placeholder="Введите email" required>
-                    <input type="phone" placeholder="Номер телефона" required>
-                    <input type="text" placeholder="Название организации">
+                    <input type="text" name="name" placeholder="Введите имя" required>
+                    <input type="text" name="surname" placeholder="Введите фамилию" required>
+                    <input type="number" name="age" placeholder="Введите свой возраст (от 10 до 100)" required>
+                    <input type="email" name="email" placeholder="Введите email" required>
+                    <input type="phone" name="phone" placeholder="Номер телефона" required>
+                    <input type="text" name="company" placeholder="Название организации">
                 </div>
                 <div class="register__form_right">
-                    <textarea name="" id="" rows="14"></textarea>
+                    <textarea name="comments" id="" rows="14"></textarea>
                     <div class="register__form_chbx">
                         <input id="agreement" name="agreement" type="checkbox" required>
                         <label for="agreement">Соглашение пользователя</label>
@@ -109,7 +111,7 @@
                 <div class="footer__site-name">FARCODE</div>
                 <div class="footer__owner">© 2022 Golomedov Andrey</div>
             </div>
-            <div class="footer__contact">
+            <div class="footer__contact" id="contacts">
                 <p class="footer__text">Контакты</p>
                 <div class="footer__phone">+ 7 (800) 500-27-34</div>
                 <div class="footer__email">help@far-code.ru</div>
