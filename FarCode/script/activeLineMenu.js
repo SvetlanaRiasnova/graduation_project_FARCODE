@@ -1,4 +1,4 @@
-let items = document.getElementsByClassName('consept__menu_link');
+let items = document.getElementsByClassName('consept__menu-link');
 let activeClassName = 'active';
 
 function unselectItems() {

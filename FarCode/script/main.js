@@ -1,5 +1,5 @@
 // //открытие модального окна
-const regButton = document.querySelector(".intro__info_button");
+const regButton = document.querySelector(".intro__info-button");
 const modalWindow = document.querySelector(".modal");
 const modalFon = document.querySelector(".modal-fon");
 const closeButton = document.querySelector(".modal_close");
@@ -21,7 +21,7 @@ regButton.addEventListener("click", showModal);
 
 
 //переход к форме регистрации на странице кейса
-const participationButton = document.querySelector(".case__intro_button");
+const participationButton = document.querySelector(".case__intro-button");
 const targetRegistationForm = document.querySelector(".register");
 
 participationButton.addEventListener("click", (e) => {

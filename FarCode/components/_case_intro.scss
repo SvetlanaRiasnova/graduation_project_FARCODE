@@ -8,13 +8,13 @@
     align-items: center;
     gap: 100px;
     flex-direction: row;
-    &_header {
+    &-header {
         @include titleFont;
         width: 534px;
         margin: 0;
         padding-top: 51px;
     }
-    &_button {
+    &-button {
         margin-top: 49px;
         width: 186px;
         height: 70px;

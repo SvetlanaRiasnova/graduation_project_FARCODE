@@ -4,12 +4,12 @@
         @include titleFont;
         padding-bottom: 53px;
     }
-    &__form_inputs {
+    &__form-inputs {
         display: grid;
         gap: 30px;
         grid-template-columns: repeat(2, 570px);
     }
-    &__form_left, &__form_right {
+    &__form-left, &__form-right {
         width: 570px;
         display: flex;
         flex-direction: column;
@@ -28,7 +28,7 @@
             padding: 21px 31px;
         }
     }
-    &__form_chbx {
+    &__form-chbx {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -97,7 +97,7 @@
     background-color: #ffffff;
     padding-top: 60px;
 }
-.register__header_block {
+.register__header-block {
     display: flex;
     flex-direction: row;
     justify-content: center;

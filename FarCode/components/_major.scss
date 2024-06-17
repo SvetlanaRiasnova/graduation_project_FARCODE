@@ -13,6 +13,10 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 .cloud1 {
     /* Фигура5 */
     position: absolute;

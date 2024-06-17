@@ -15,6 +15,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .cloud1 {
   /* Фигура5 */
   position: absolute;
@@ -139,7 +143,7 @@ body {
   flex-direction: column;
   padding-top: 227px;
 }
-.intro__info_header {
+.intro__info-header {
   margin: 0;
   font-size: 60px;
   font-weight: 700;
@@ -148,15 +152,15 @@ body {
   display: flex;
   align-items: center;
 }
-.intro__info_header .slash_purple {
+.intro__info-header .slash_purple {
   font-size: 60px;
 }
-.intro__info_description {
+.intro__info-description {
   margin: 0;
   color: rgb(0, 0, 0);
   padding-top: 25px;
 }
-.intro__info_button {
+.intro__info-button {
   margin: 0;
   margin-top: 120px;
   width: 220px;
@@ -203,14 +207,14 @@ body {
   height: 508px;
   padding: 65px 121px;
 }
-.concept__about_title {
+.concept__about-title {
   width: 570px;
   margin: 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
 }
-.concept__about_text {
+.concept__about-text {
   margin: 0;
   width: 528px;
 }
@@ -221,14 +225,14 @@ body {
   background: url("img/concept__reasons.png") no-repeat;
   background-size: contain;
 }
-.concept__reasons_title {
+.concept__reasons-title {
   margin: 0;
   width: 306px;
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
 }
-.concept__reasons_text {
+.concept__reasons-text {
   padding-right: 200px;
 }
 .concept__participation {
@@ -237,14 +241,14 @@ body {
   background: url("img/concept__participation.png") no-repeat;
   background-size: contain;
 }
-.concept__participation_title {
+.concept__participation-title {
   margin: 0;
   width: 510px;
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
 }
-.concept__participation_cards {
+.concept__participation-cards {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 14px;
@@ -252,7 +256,7 @@ body {
   align-content: start;
   padding-top: 46px;
 }
-.concept__participation_card {
+.concept__participation-card {
   width: 300px;
   height: 225px;
   display: flex;
@@ -261,10 +265,10 @@ body {
   flex-direction: column;
   text-align: center;
 }
-.concept__participation_card:nth-child(2) {
+.concept__participation-card:nth-child(2) {
   margin-top: -10px;
 }
-.concept__participation_icon {
+.concept__participation-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,7 +277,7 @@ body {
   height: 110px;
   background-color: #ffffff;
 }
-.concept__participation_text {
+.concept__participation-text {
   padding-top: 34px;
 }
 .concept__participation img {
@@ -328,7 +332,7 @@ body {
   background: rgb(255, 255, 255);
   text-align: left;
 }
-.cases__item_text {
+.cases__item-text {
   text-decoration: none;
   width: 234px;
   padding-top: 21px;
@@ -492,7 +496,7 @@ body {
   gap: 100px;
   flex-direction: row;
 }
-.case__intro_header {
+.case__intro-header {
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
@@ -500,7 +504,7 @@ body {
   margin: 0;
   padding-top: 51px;
 }
-.case__intro_button {
+.case__intro-button {
   margin-top: 49px;
   width: 186px;
   height: 70px;
@@ -525,13 +529,13 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.case__details_menu {
+.case__details-menu {
   width: 1005px;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 42px;
 }
-.case__details_menu a {
+.case__details-menu a {
   text-decoration: none;
   color: #000000;
 }
@@ -548,17 +552,17 @@ body {
   background: url("img/case_page.png") no-repeat center;
   background-size: 100%;
 }
-.case__content_about {
+.case__content-about {
   width: 570px;
   color: #B1B9CE;
   padding-right: 80px;
 }
-.case__content_title {
+.case__content-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
 }
-.case__content_logo img {
+.case__content-logo img {
   width: 570px;
 }
 
@@ -566,14 +570,14 @@ body {
   margin: 0 auto;
   width: 1170px;
 }
-.case__description_header {
+.case__description-header {
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
   margin: 0;
   padding-bottom: 40px;
 }
-.case__description_text {
+.case__description-text {
   margin: 0;
   padding-bottom: 40px;
 }
@@ -602,7 +606,7 @@ body {
 .mentors__info img {
   padding-bottom: 34px;
 }
-.mentors__info_block {
+.mentors__info-block {
   text-align: center;
 }
 .mentors__name {
@@ -618,12 +622,12 @@ body {
   line-height: 49px;
   padding-bottom: 53px;
 }
-.register__form_inputs {
+.register__form-inputs {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 570px);
 }
-.register__form_left, .register__form_right {
+.register__form-left, .register__form-right {
   width: 570px;
   display: flex;
   flex-direction: column;
@@ -631,18 +635,18 @@ body {
   align-items: center;
   gap: 25px;
 }
-.register__form_left input, .register__form_left textarea, .register__form_right input, .register__form_right textarea {
+.register__form-left input, .register__form-left textarea, .register__form-right input, .register__form-right textarea {
   width: 100%;
   border-radius: 10px;
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
   background: rgb(255, 255, 255);
   border: none;
 }
-.register__form_left input, .register__form_right input {
+.register__form-left input, .register__form-right input {
   height: 51px;
   padding: 21px 31px;
 }
-.register__form_chbx {
+.register__form-chbx {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -653,20 +657,20 @@ body {
   background: rgb(255, 255, 255);
   border: none;
 }
-.register__form_chbx input {
+.register__form-chbx input {
   width: 20px;
   margin: 0;
   margin-left: 31px;
 }
-.register__form_chbx input::before {
+.register__form-chbx input::before {
   border-color: #7a7a7a;
   background-color: #ffffff;
 }
-.register__form_chbx input::after {
+.register__form-chbx input::after {
   border-color: #7a7a7a;
   background-color: #7a7a7a;
 }
-.register__form_chbx label {
+.register__form-chbx label {
   margin: 0;
   padding-left: 14px;
   color: rgb(136, 136, 136);
@@ -713,7 +717,7 @@ body {
   padding-top: 60px;
 }
 
-.register__header_block {
+.register__header-block {
   display: flex;
   flex-direction: row;
   justify-content: center;
