@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" />
     <title>FarCode</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
     </div>
     <header class="header">
         <a class="header__logo" href="index.html">
-            <img src="icons/logo.png" alt="" class="header__logo-image">
+            <img src="icons/logo.png" alt="logo" class="header__logo-image">
         </a>
         <nav class="header__menu">
             <a href="#about_us" class="header__menu-link">О нас</a>
@@ -29,7 +30,7 @@
     </header>
     <section class="intro">
         <div class="intro__info">
-            <h1 class="intro__info-header"><span class="slash_purple">/</span>FARCODE</h1>
+            <h1 class="intro__info-header"><span class="slashpurple">/</span>FARCODE</h1>
             <p class="intro__info-description">ХАКАТОН ЦИФРОВЫХ ПРОФЕССИЙ</p>
             <button class="intro__info-button">участвовать</button>
         </div>
@@ -39,23 +40,23 @@
     </section>
     <main class="concept" id="about_us">
         <nav class="concept__menu">
-            <a class="consept__menu-link active" href="#about">О концепции</a>
-            <a class="consept__menu-link" href="#cases">Кейсы</a>
-            <a class="consept__menu-link" href="#dates">Ключевые даты</a>
-            <a class="consept__menu-link" href="#faq">FAQ</a>
+            <a class="conсept__menu-link active" href="#about">О концепции</a>
+            <a class="conсept__menu-link" href="#cases">Кейсы</a>
+            <a class="conсept__menu-link" href="#dates">Ключевые даты</a>
+            <a class="conсept__menu-link" href="#faq">FAQ</a>
         </nav>
         <div class="concept__content" id="about">
             <div class="concept__about">
-                <h2 class="concept__about-title"><span class="slash__green">/</span>Что такое хакатон цифровых профессий?</h2>
+                <h2 class="concept__about-title"><span class="slashgreen">/</span>Что такое хакатон цифровых профессий?</h2>
                 <p class="concept__about-text">Это мероприятие, где команды, состоящие из молодых людей создают прототипы цифровых продуктов по техническому заданию от малого и среднего бизнеса (кейсы).</p>
             </div>
             <div class="concept__reasons">
-                <h2 class="concept__reasons-title"><span class="slash__green">/</span>Почему вам это нужно?</h2>
+                <h2 class="concept__reasons-title"><span class="slashgreen">/</span>Почему вам это нужно?</h2>
                 <p class="concept__reasons-text">Хакатон позволит вам получить крутой опыт командной разработки, новые и полезные знакомства, а также шанс попасть на стажировку или работу в IT-компанию или в IT-подразделение крупной корпорации.</p>
             </div>
             <div class="concept__participation">
                 <h2 class="concept__participation-title">
-                    <span class="slash__green">/</span>
+                    <span class="slashgreen">/</span>
                     Как принять участие в хакатоне?</h2>
                 <div class="concept__participation-cards">
                     <div class="concept__participation-card">
@@ -97,7 +98,7 @@
     <section class="cases" id="cases">
         <div class="cases__top">
             <h2 class="cases__header">
-                <span class="slash_purple">/</span>
+                <span class="slashpurple">/</span>
                 Серьёзные проблемы требуют серьёзных решений</h2>
             <p class="cases__description">Кейсы от ведущих российских компаний</p>
         </div>
@@ -155,7 +156,7 @@
     <section class="schedule" id="dates">
         <div class="schedule__content">
             <div class="schedule__heading">
-                <h2 class="schedule__header"><span class="slash__green">/</span>Что, а самое главное когда</h2>
+                <h2 class="schedule__header"><span class="slashgreen">/</span>Что, а самое главное когда</h2>
                 <p class="schedule__text">Ключевые даты хакатона</p>
             </div>
             <div class="schedule__dates">
@@ -191,7 +192,7 @@
         </div>
     </section>
     <section class="qa" id="faq">
-        <h2 class="qa__header"><span class="slash_purple">/</span>Часто задаваемые вопросы и ответы</h2>
+        <h2 class="qa__header"><span class="slashpurple">/</span>Часто задаваемые вопросы и ответы</h2>
         <div class="qa__items">
             <div class="qa__item1 qa__item">
                 <h3 class="qa__item-question">Вопрос 1</h3>
@@ -227,8 +228,10 @@
             </div>
             <div class="footer__contact" id="contacts">
                 <p class="footer__text">Контакты</p>
-                <div class="footer__phone">+ 7 (800) 500-27-34</div>
-                <div class="footer__email">help@far-code.ru</div>
+                <div class="footer__phone">
+                    <a href="tel:+79998887766">+ 7 (800) 500-27-34</a></div>
+                <div class="footer__email">
+                    <a href="mailto:help@far-code.ru">help@far-code.ru</a></div>
             </div>
         </div>
     </footer>
@@ -236,21 +239,21 @@
     <div class="modal hidden">
         <div class="register">
             <div class="register__header-block">
-                <h2 class="register__header"><span class="slash_purple">/</span>Регистрация на кейс</h2>
+                <h2 class="register__header"><span class="slashpurple">/</span>Регистрация на кейс</h2>
                 <div class="modal_close">X</div>
             </div>
-            <form action="" method="post" class="register__form">
+            <form action="#" method="POST" class="register__form" id="register_form">
                 <div class="register__form-inputs">
                     <div class="register__form-left">
-                        <input type="text" placeholder="Введите имя" required>
-                        <input type="text" placeholder="Введите фамилию" required>
-                        <input type="number" placeholder="Введите свой возраст (от 10 до 100)" required>
-                        <input type="email" placeholder="Введите email" required>
-                        <input type="phone" placeholder="Номер телефона" required>
-                        <input type="text" placeholder="Название организации">
+                        <input type="text" name="name" placeholder="Введите имя" required>
+                        <input type="text" name="surname" placeholder="Введите фамилию" required>
+                        <input type="number" name="age" placeholder="Введите свой возраст (от 10 до 100)" required>
+                        <input type="email" name="email" placeholder="Введите email" required>
+                        <input type="tel" name="phone" placeholder="Номер телефона" required>
+                        <input type="text" name="company" placeholder="Название организации">
                     </div>
                     <div class="register__form-right">
-                        <textarea name="" id="" rows="14"></textarea>
+                        <textarea name="comments" id="" rows="14"></textarea>
                         <div class="register__form-chbx">
                             <input id="agreement" name="agreement" type="checkbox" required>
                             <label for="agreement">Соглашение пользователя</label>
@@ -261,7 +264,11 @@
             </form>
         </div>
     </div>
+    <div class="modal__registration hidden">
+        <p>Вы успешно зарегистрировались на кейс</p>
+    </div>
     <script src="./script/main.js"></script> 
     <script src="./script/activeLineMenu.js"></script> 
+    <script src="./script/submitForm.js"></script> 
 </body>
 </html>

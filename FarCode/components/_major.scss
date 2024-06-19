@@ -17,6 +17,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+a {
+    text-decoration: none;
+}
 .cloud1 {
     /* Фигура5 */
     position: absolute;
@@ -90,15 +93,34 @@ html {
     top: 3444px;
 }
 
-.slash__green {
+.slashgreen {
     color: #56FFCC;
     @include titleFont;
 }
-.slash_purple {
+.slashpurple {
     margin: 0;
     color: #7856FF;
     @include titleFont;
 }
 .hidden {
     display: none;
+}
+.modal__registration {
+    background-color:#cfcfcf;
+    color: rgb(22, 22, 22);
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 60px;
+    width: 600px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    top: 45%;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 28px;
 }

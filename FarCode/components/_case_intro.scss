@@ -1,11 +1,8 @@
 .case__intro {
     margin: 0 auto;
     margin-top: 214px;
-    // margin-bottom: 253px;
     width: 1170px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
     gap: 100px;
     flex-direction: row;
     &-header {

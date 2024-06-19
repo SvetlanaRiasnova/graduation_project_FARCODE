@@ -19,12 +19,34 @@ modalFon.addEventListener('click', showModal);
 closeButton.addEventListener('click', closeModal);
 regButton.addEventListener("click", showModal);
 
+// const res = document.querySelector(".modal__registration");
+// const registerButton =  querySelector(".register__button");
+// register_form.onsubmit = async (e) => {
+//     e.preventDefault();
 
-//переход к форме регистрации на странице кейса
-const participationButton = document.querySelector(".case__intro-button");
-const targetRegistationForm = document.querySelector(".register");
+//     // let response = await fetch('URL', {  
+//     //   method: 'POST',
+//     //   body: new FormData(register_form)
+//     // });
+//     // let result = await response.json();
+//     res.classList.toggle("hidden");
+//     setTimeout(() => {
+//         res.classList.toggle("hidden");
+//     }, 1300);
+//     showModal();
+//     document.getElementById("register_form").reset()
+//   };
 
-participationButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    targetRegistationForm.scrollIntoView({ behavior: 'smooth' });
-} )
+//   registerButton.addEventListener("onsubmit",  
+//     setTimeout(() => {
+//         res.classList.toggle("hidden");
+//     }, 1300)
+//   );
+// //переход к форме регистрации на странице кейса
+// const participationButton = document.querySelector(".case__intro-button");
+// const targetRegistationForm = document.querySelector(".register");
+
+// participationButton.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     targetRegistationForm.scrollIntoView({ behavior: 'smooth' });
+// } )

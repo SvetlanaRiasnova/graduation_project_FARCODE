@@ -1,4 +1,4 @@
-let items = document.getElementsByClassName('consept__menu-link');
+let items = document.getElementsByClassName('conсept__menu-link');
 let activeClassName = 'active';
 
 function unselectItems() {
@@ -19,3 +19,4 @@ function onItemClick(event) {
 for (let i = 0; i < items.length; i++) {  
   items[i].addEventListener('click', onItemClick);
 }
+
